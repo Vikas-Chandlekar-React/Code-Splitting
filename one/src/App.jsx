@@ -14,7 +14,7 @@ import lazyLoad from "./custom/lazyLoad";
 // LEARN : How to default import using lazy load
 const Home = lazy(() => import("./components/Home"));
 // const Store = lazy(() => import("./components/Store"));
-const Store = lazyLoad("./components/Store");
+const Store = lazyLoad("../components/Store");
 // LEARN : How to named import using lazy load
 const About = lazy(() =>
   import("./components/About").then((module) => {
